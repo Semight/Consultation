@@ -1,0 +1,222 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background: #FFF7F0;
+  margin: 0;
+  width: 100%;
+}
+body main header, body main footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 62.5rem;
+}
+body main header .btn-header, body main header .btn-footer, body main footer .btn-header, body main footer .btn-footer {
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF7F0;
+  padding: 1rem 1.7rem;
+  background: #030303;
+  border-radius: 28px;
+}
+body main .hero {
+  margin: 0 auto;
+  text-align: center;
+}
+body main .hero h1 {
+  font-size: 3.7rem;
+  line-height: 4.4rem;
+  margin-top: 4.1rem;
+}
+body main .hero p {
+  line-height: 1.7rem;
+  margin-top: 1.7rem;
+  color: #7A746E;
+}
+body main .skill {
+  position: relative;
+  border-radius: 8px;
+}
+body main .skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
+body main .skills .upper-skills {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+body main .skills .upper-skills .skill-one {
+  background: #755CDE;
+  height: 24rem;
+  width: 21rem;
+  margin-top: 0;
+  position: relative;
+  border-radius: 8px;
+}
+body main .skills .upper-skills img {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+body main .skills .upper-skills .title {
+  position: absolute;
+  bottom: 5px;
+  left: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+}
+body main .skills .upper-skills .inner-skills {
+  display: flex;
+  gap: 25px;
+}
+body main .skills .upper-skills .inner-skills .skill-two {
+  background: #F6A560;
+  height: 11rem;
+  margin-top: 0;
+  width: 9.5rem;
+}
+body main .skills .upper-skills .inner-skills .skill-three {
+  background: #F39E9E;
+  height: 11rem;
+  margin-top: 0;
+  width: 9.5rem;
+}
+body main .skills .upper-skills .skill-four {
+  background: #EB7565;
+  margin-top: 1.5rem;
+  height: 11rem;
+  width: 21rem;
+}
+body main .skills .lower-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+body main .skills .lower-skills .skill-five {
+  background: #61C4B7;
+  height: 11rem;
+  margin-top: 0;
+  width: 21rem;
+}
+body main .skills .lower-skills img {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+body main .skills .lower-skills .title {
+  position: absolute;
+  bottom: 5px;
+  left: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+}
+body main .skills .lower-skills .skill-six {
+  background: #552049;
+  margin-top: 0;
+  height: 11rem;
+  width: 21rem;
+}
+body main .profile {
+  display: flex;
+  margin: 8.5rem;
+  gap: 9.5rem;
+  max-width: 62.5rem;
+}
+body main .profile .amy-image {
+  position: relative;
+  right: 0px;
+  width: 18.7rem;
+  display: block;
+  margin: 0 auto;
+}
+body main .profile .profile-info {
+  text-align: left;
+  margin-top: 0.5rem;
+}
+body main .profile .profile-info h2 {
+  font-size: 2rem;
+  line-height: 2.52rem;
+  font-weight: 700;
+}
+body main .profile .profile-info p {
+  margin-block: 1.5rem;
+  font-size: 1rem;
+  color: #7A746E;
+}
+body main .profile .profile-info .btn-profile {
+  background: #EB7565;
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF7F0;
+  padding: 0.5rem 1.7rem;
+  border-radius: 28px;
+}
+body main .work {
+  margin-top: 5.5rem;
+  text-align: center;
+  max-width: 62.5rem;
+}
+body main .work h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-left: 20rem;
+}
+body main .work .carousel {
+  display: flex;
+}
+body main .work .carousel .carousel-item {
+  width: 40%;
+}
+body main .work .arrows {
+  justify-content: center;
+  padding-left: 20rem;
+}
+body main .work .arrows .arrow {
+  background-color: black;
+  padding: 1.5rem;
+  display: inline;
+  border-radius: 50%;
+  margin: 2rem 0.5rem 0 0.5rem;
+}
+body main .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.5rem 4.1rem;
+  max-width: 54.5rem;
+  margin-left: 11rem;
+  text-align: center;
+  background: #030303;
+  border-radius: 10px;
+  color: #FFF7F0;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+body main .contact .contact-text {
+  text-align: left;
+  max-width: 34rem;
+}
+body main .contact .contact-text h3 {
+  font-size: 2.5rem;
+}
+body main .contact .contact-text p {
+  font-size: 1.2rem;
+}
+body main .contact .btn-contact {
+  margin-top: 1.6rem;
+  background: #EB7565;
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF7F0;
+  padding: 1rem 1.7rem;
+  border-radius: 28px;
+}/*# sourceMappingURL=style.css.map */
